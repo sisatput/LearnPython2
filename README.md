@@ -102,26 +102,26 @@ A function is a block of code that performs a specific task. It allows you to or
 
     - The `loc` attribute is used to access data based on explicit index labels, while the `iloc` attribute is used to access data based on implicit integer positions.
 
-    LOC :
+      - LOC :
     <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/Week%203/LOC.png" /></div>
-    ILOC :
+      - ILOC :
     <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/Week%203/ILOC.png" /></div>
 
   - **Dictionary to Series**:
 
     - You can convert a Python dictionary into a Pandas Series using the `pd.Series()` function. The keys of the dictionary become the index labels, and the values become the data elements.
 
-    Data Dictionary :
+      - Data Dictionary :
     <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/Week%203/Pd%20Series%20-%20Data%20Dictionary.png" /></div>
 
-    Data Series :
+      - Data Series :
     <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/Week%203/Pd%20Series%20-%20Data%20Series.png" /></div>
 
 ### Pandas - DataFrame
 
 - A Pandas DataFrame is a two-dimensional labeled data structure with columns of potentially different types. It is similar to a spreadsheet or SQL table and is widely used for data analysis and manipulation.
 
-  -**Convert Data Series to DataFrame**:
+  - **Convert Data Series to DataFrame**:
 
   - You can convert a Pandas Series into a DataFrame using the `pd.DataFrame()` function. The Series elements become the data values in the DataFrame, and the index labels become the row labels.
 
@@ -134,7 +134,7 @@ A function is a block of code that performs a specific task. It allows you to or
 
       <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/Week%203/Accessing%20Data%20Frame%20-%20Series.png" /></div>
 
-  -**Load Data from CSV File**:
+  - **Load Data from CSV File**:
 
   - You can load data from a CSV file into a Pandas DataFrame using the `pd.read_csv()` function. Specify the file path as an argument to read the CSV file and create a DataFrame.
 
