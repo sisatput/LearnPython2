@@ -81,21 +81,23 @@ A function is a block of code that performs a specific task. It allows you to or
 
   - By default, a Series is created with an implicit integer index starting from 0. You can specify custom labels for the index using the `index` parameter.
 
-    Explicit Indexing :
+    - Explicit Indexing :
+    Allows you to assign custom labels to the elements in a Series. You can use the `index` parameter to specify the index labels.
 
-  - Allows you to assign custom labels to the elements in a Series. You can use the `index` parameter to specify the index labels.
     <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/Week%203/Pd%20Explicit.png" /></div>
-    Implicit Indexing :
-  - Uses the default integer index to access elements in a Series. You can use the default index to retrieve values from the Series.
+    
+    - Implicit Indexing :
+    Uses the default integer index to access elements in a Series. You can use the default index to retrieve values from the Series.
+
     <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/Week%203/Pd%20Implicit.png" /></div>
 
 - **Data Slicing**:
 
   - Data slicing allows you to extract a subset of data from a Series based on the index labels or positions. You can use slicing to select specific elements or ranges of elements.
 
-    Explicit Indexing :
+    - Explicit Indexing :
     <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/Week%203/Pd%20Ds%20Explicit.png" /></div>
-    Implicit Indexing :
+    - Implicit Indexing :
     <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/Week%203/Pd%20Ds%20Implicit.png" /></div>
 
   - **LOC and ILOC**:
@@ -104,6 +106,7 @@ A function is a block of code that performs a specific task. It allows you to or
 
       - LOC :
     <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/Week%203/LOC.png" /></div>
+    
       - ILOC :
     <div align="center"><img src="https://github.com/sisatput/LearnPythonImg/blob/main/Week%203/ILOC.png" /></div>
 
@@ -136,7 +139,7 @@ A function is a block of code that performs a specific task. It allows you to or
 
   - **Load Data from CSV File**:
 
-  - You can load data from a CSV file into a Pandas DataFrame using the `pd.read_csv()` function. Specify the file path as an argument to read the CSV file and create a DataFrame.
+    - You can load data from a CSV file into a Pandas DataFrame using the `pd.read_csv()` function. Specify the file path as an argument to read the CSV file and create a DataFrame.
 
     Data CSV Source : [Data Source](https://www.kaggle.com/datasets/shivamb/disney-movies-and-tv-shows)
 
