@@ -1,4 +1,4 @@
-# Learn Python for Data Analyst Part 1
+# Learn Python for Data Analyst Part 2
 
 Welcome back to the continuation of our Python Mastery for Data Analysts guide! 🐍
 
